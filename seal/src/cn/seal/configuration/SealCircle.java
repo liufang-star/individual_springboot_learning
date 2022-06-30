@@ -22,10 +22,6 @@ public class SealCircle {
     private Integer width;
 
     /**
-     * 测试拉取数据是否成功
-     */
-    private Integer liufang;
-    /**
      * 半径
      */
     private Integer height;
