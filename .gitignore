@@ -1,0 +1,11 @@
+# Project exclude paths
+/admin-plus-master/admin-common/target/
+/admin-plus-master/admin-core/target/
+/admin-plus-master/admin-generator/target/
+/aop/target/
+/hasor/target/
+/music-website-master/target/
+/out/
+/shiro-springboot/target/
+/verificationcodetest/target/
+/Yark-AdminMS-master/target/

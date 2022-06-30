@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-plus-master/admin-common/admin-common.iml" filepath="$PROJECT_DIR$/admin-plus-master/admin-common/admin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-plus-master/admin-core/admin-core.iml" filepath="$PROJECT_DIR$/admin-plus-master/admin-core/admin-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-plus-master/admin-generator/admin-generator.iml" filepath="$PROJECT_DIR$/admin-plus-master/admin-generator/admin-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-plus-master/admin-plus-master.iml" filepath="$PROJECT_DIR$/admin-plus-master/admin-plus-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arithmeticsort/arithmeticsort.iml" filepath="$PROJECT_DIR$/arithmeticsort/arithmeticsort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hasor/hasor.iml" filepath="$PROJECT_DIR$/hasor/hasor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/individual_springboot_learning.iml" filepath="$PROJECT_DIR$/individual_springboot_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-website-master/music-website-master.iml" filepath="$PROJECT_DIR$/music-website-master/music-website-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstartshiro/quickstartshiro.iml" filepath="$PROJECT_DIR$/quickstartshiro/quickstartshiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reptile/reptile.iml" filepath="$PROJECT_DIR$/reptile/reptile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seal/seal.iml" filepath="$PROJECT_DIR$/seal/seal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-springboot/shiro-springboot.iml" filepath="$PROJECT_DIR$/shiro-springboot/shiro-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-uploadfile-master/spring-uploadfile-master.iml" filepath="$PROJECT_DIR$/spring-uploadfile-master/spring-uploadfile-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verificationcodetest/verificationcodetest.iml" filepath="$PROJECT_DIR$/verificationcodetest/verificationcodetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yark-AdminMS-master/yaoyi.iml" filepath="$PROJECT_DIR$/Yark-AdminMS-master/yaoyi.iml" />
+    </modules>
+  </component>
+</project>

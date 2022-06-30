@@ -1,0 +1,123 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>登陆</title>-->
+<!--</head>-->
+
+<!--<style>-->
+<!--    #main_form {-->
+<!--        width: 300px;-->
+<!--        height: 200px;-->
+<!--        margin: 100px auto;-->
+
+<!--        background-color: #F0F0F0;-->
+<!--        border: 1px solid #c2c2c2;-->
+<!--    }-->
+
+<!--    #input_content {-->
+<!--        margin-top: 20px;-->
+<!--        text-align: center;-->
+<!--        border: 5px;-->
+<!--    }-->
+
+<!--    #verify_image, #submit_btn {-->
+<!--        text-align: center;-->
+<!--        margin: 20px auto;-->
+<!--    }-->
+<!--</style>-->
+
+<!--<body>-->
+
+
+<!--<div id="main_form">-->
+<!--    <div id="input_content">-->
+<!--        <input autocomplete="off" autofocus id="verify_input" placeholder="请输入验证码" maxlength="4">-->
+<!--    </div>-->
+<!--    <div id="verify_image">-->
+<!--        <img id="imgVerify" src="login/getVerify" alt="更换验证码" height="36" width="170" onclick="getVerify(this);">-->
+<!--    </div>-->
+
+<!--    <div id="submit_btn">-->
+<!--        <input type="button" onclick="aVerify()" value="判断是否正确">-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<!--</body>-->
+<!--<script type="text/javascript" src="./js/jquery.min.js"></script>-->
+
+<!--<script>-->
+
+
+<!--    function getVerify() {-->
+<!--        $("#verify_input").val("");-->
+<!--        $("#imgVerify").attr("src", 'login/getVerify?' + Math.random());//jquery方式-->
+<!--    }-->
+
+<!--    function aVerify() {-->
+<!--        let value = $("#verify_input").val();-->
+
+<!--        if (value.length < 4) {-->
+<!--            alert("验证码不足4位 , 请重新输入！！");-->
+<!--            return 0;-->
+<!--        }-->
+
+
+<!--        $.ajax({-->
+<!--            async: false,-->
+<!--            type: 'post',-->
+<!--            url: 'login/checkVerify',-->
+<!--            dataType: "json",-->
+<!--            data: {-->
+<!--                verifyInput: value-->
+<!--            },-->
+<!--            success: function (result) {-->
+
+<!--                if (result) {-->
+
+<!--                    if (confirm("验证成功, 再试一次 ！")) {-->
+<!--                        getVerify();-->
+<!--                    } else {-->
+<!--                        window.location.href = "https:www.baidu.com";-->
+<!--                    }-->
+
+<!--                } else {-->
+<!--                    alert("验证失败 , 点击确定重新验证");-->
+<!--                    getVerify();-->
+<!--                }-->
+<!--// window.location.reload();-->
+<!--            }-->
+<!--        });-->
+<!--    }-->
+
+<!--</script></html>-->
+
+
+
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>会员中心-登录</title>
+</head>
+<body>
+<table class="login_tab" width="270" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>验证码：</td>
+        <td><input type="text" id="validateCode" name="validateCode" value="" placeholder="请输入验证码"/></td><td>&nbsp;&nbsp;</td>
+        <td><img id="loginValidateCode" height="35" width="80"  style="cursor: pointer;" src="/loginValidateCode" onclick="uploadLoginValidateCode();"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button class="log_b" type="submit">登 录</button>
+        </td>
+    </tr>
+</table>
+<script type="text/javascript" src="/js/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/js/kaptcha.js"></script>//导入kaptcha.js文件
+<script type='text/javascript'></script>
+</body>
+</html>
