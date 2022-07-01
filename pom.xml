@@ -24,7 +24,6 @@
         <module>Yark-AdminMS-master</module>
         <module>shiro-springboot</module>
         <module>spring-uploadfile-master</module>
-        <module>admin-plus-master</module>
         <module>aop</module>
         <module>quickstartshiro</module>
         <module>verificationcodetest</module>
