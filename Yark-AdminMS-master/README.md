@@ -1,6 +1,7 @@
 # Yark-AdminMS疫情校园后台管理系统  
 **主要技术**   
 
+项目访问地址：localhost:3212   账号:admin  密码:123456
 
 1. springboot  
 2. shiro  

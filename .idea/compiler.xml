@@ -12,7 +12,6 @@
         <module name="verificationcodetest" />
         <module name="aop" />
         <module name="admin-core" />
-        <module name="music-website-master" />
         <module name="hasor" />
         <module name="reptile" />
         <module name="spring-uploadfile-master" />

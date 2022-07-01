@@ -15,6 +15,8 @@ import io.gitee.liubin0509.study.web.bean.InfoMsg;
 @Controller
 @RequestMapping("/upload")
 public class UploadCtrl {
+
+	//文件上传保存的路径
 	private static final String TMP_PATH = "G:/projects/tmp";
 
 	@RequestMapping(value = "", method = RequestMethod.GET)

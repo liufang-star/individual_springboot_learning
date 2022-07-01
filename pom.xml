@@ -28,7 +28,6 @@
         <module>aop</module>
         <module>quickstartshiro</module>
         <module>verificationcodetest</module>
-        <module>music-website-master</module>
         </modules>
 
     <dependencies>
